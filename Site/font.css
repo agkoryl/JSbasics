@@ -1,0 +1,31 @@
+article {
+    font-family: arial, Arial, Helvetica, sans-serif;
+}
+/* Text decoration */
+h2 {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-family: "Yu Gothic";
+    color: #567398;
+    background-color: cornflowerblue;
+}
+article {
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-top-style: dashed;
+    height: 200px;
+}
+article a {
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+}
+article a:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+article p {
+    letter-spacing: 3px;
+    line-height: 24px;
+}
