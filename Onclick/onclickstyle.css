@@ -1,0 +1,37 @@
+body {
+    background: salmon;
+}
+
+#content {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    font-family: calibri;
+    font-size: 18px;
+    color: darkblue;
+    margin: 0 auto;
+    padding-top: 0;
+
+    max-height: 270px;
+    overflow: hidden;
+}
+
+#content.open {
+    max-height: 1000px;
+    overflow: scroll;
+
+}
+
+#show-more {
+    background: purple;
+    color: white;
+    font-family: calibri;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: crosshair;
+}
