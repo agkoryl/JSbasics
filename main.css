@@ -1,0 +1,86 @@
+/***********************************************
+*
+* Author : me
+* Date : ble
+*
+************************************************/
+
+/* Style all p tags */
+p, dd {
+    font-size: 18px;
+    color: red;
+    
+} 
+#welcome {
+    font-size: 40px;
+    color: darkgreen;
+}
+.navigation__element {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+}
+/* Descendant selector */ 
+.novels dd {
+    font-size: 15px;
+    color: pink;
+}
+/*Style novels class */
+.novels__title {
+    color: blue;
+   }
+
+   /* Child selector*/
+   body > p {
+       color: gold;
+   }
+   /* Adjacent selector */
+    h2 + p {
+       color: greenyellow;
+   }
+   /* Class attribute selector */
+   dt[class] {
+       text-decoration: underline;
+   }
+a[href$="pdf"] {
+    color: purple;
+}
+/* Pseudo selectors */
+/* Dynamic */
+a:hover {
+color: pink;
+}
+a:active {
+    color:orange;
+}
+a:visited {
+    color:black;
+}
+/*Structural*/
+/* First child last child*/
+dl dt:first-child {
+    font-weight: bold;
+}
+dl dd:last-child {
+    font-weight:bold;
+    color: green;
+}
+/* Last of type first of type*/
+dl dt:last-of-type {
+    color: green;
+}
+.life dt:nth-child(1), dt:nth-child(3) {
+    color: red;
+    text-decoration: underline;
+}
+.novels__list *:nth-child(even) {
+    background: grey;
+}
+.novels__list *:nth-child(odd) {
+    background: yellow;
+}
+.life dt:nth-of-type(odd) {
+    background: gold;
+}
